@@ -149,7 +149,7 @@ const swiper1 = new Swiper('.venting-swiper', {
       clickable: true,
     },
     autoplay: {
-      delay: 1500,
+      delay: 2500,
       disableOnInteraction: false,
     }
   });
@@ -293,6 +293,32 @@ swiperSlide.addEventListener('mouseenter', () => {
 paraSlide1.addEventListener('mouseleave', () => {
   swiper.autoplay.start();  // Start autoplay when hover is removed
 });
+
+const ventingSlide = document.querySelectorAll('.venting-images1');
+ventingSlide.forEach(s => {
+    s.addEventListener('mouseenter', () => {
+        swiper2.autoplay.stop();  // Stop autoplay on hover
+      });
+})
+
+ventingSlide.forEach(s => {
+    s.addEventListener('mouseleave', () => {
+        swiper2.autoplay.start();  // Stop autoplay on hover
+      });
+})
+
+const page44Contents = document.querySelectorAll('.page44leftcon, .page44rightcon');
+page44Contents.forEach(s => {
+    s.addEventListener('mouseenter', () => {
+    swiper5.autoplay.stop();  // Stop autoplay on hover
+    });
+})
+page44Contents.forEach(s => {
+    s.addEventListener('mouseleave', () => {
+    swiper5.autoplay.start();  // Start autoplay when hover is removed
+    });
+})
+
 
 const homeIntentButton = document.querySelectorAll('.homeIntent');
 const groupOfCopmaniesIntentButton = document.querySelectorAll('.groupOfCopmaniesIntent');
