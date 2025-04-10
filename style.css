@@ -4248,6 +4248,7 @@ img:not(.card-img) {
 .typicaldilutephase1 p{
 line-height: 2.1;
 font-size: 16px;
+text-align: justify;
 }
 /* .pressureConveyContainer .typicaldilutephase {
     flex: 1;
