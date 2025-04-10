@@ -8779,10 +8779,10 @@ margin-top: 22px !important;
  
  
 .page44rightcon {
-  flex: 2;
+  flex: 1;
   margin: 10px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
  /* width: 50% !important; */
 }
  
@@ -8803,7 +8803,7 @@ margin-top: 22px !important;
 .img-container {
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 75%;
 }
  
 .img-container img {
