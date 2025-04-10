@@ -9211,22 +9211,190 @@ margin-top: 22px !important;
   }
 }
 
-
-/* @media screen and (min-width:1800px) and (min-height:905px) {
+@media screen and (min-width:1800px) and (min-height:905px) {
  
   .company-gallery1 {
-    
+   
     margin-top: 6%;
 }
 .video-container {
-
+ 
   max-width: 750px;
 }
-
+ 
 .video-container1 {
-
+ 
   width: 44%;
  
 }
-
-} */
+ 
+.right-section img {
+  width: 32%;
+  height: auto;
+  margin-top: -16px;
+}
+ 
+.header2 .rotaryvalveleakage {
+  width: 89%;
+  max-width: 1500px;
+  height: auto;
+  margin: auto;
+  display: flex
+;
+  margin-top: -10%;
+}
+ 
+.example h2{
+  width: 100%;
+  padding-left: 9%;
+}
+ 
+.left-side-texts p {
+  font-size: 19px !important;
+ 
+}
+.left-side-texts h2{
+font-size: 24px !important;
+}
+}
+ 
+ 
+@media screen and (max-width:1270px) and (max-height:555px) {
+  .page-4-outer-container {
+    scale: 0.8;
+    margin-top: -39px;
+}
+ 
+.org-chart li {
+ 
+  margin-right: 0em !important;
+ 
+}
+ 
+.page8 .about-image img {
+  width: 21% !important;
+  margin-top: 15% !important;
+}
+ 
+.page .address-container {
+  margin-top: -26px !important;
+}
+ 
+.page9 .centered-image33 img {
+  margin-top: -11%;
+ 
+}
+ 
+.page10 .address-container .office1 {
+  margin-top: -14px !important;
+}
+.heading-container .ml3, .heading-container .ml4, .heading-container .ml5, .heading-container .ml6, .heading-container .ml7 {
+ 
+  margin: 0px;
+ 
+}
+.departments1 {
+ 
+  margin-top: -1%;
+}
+ 
+.company-gallery {
+  margin-top: 2% !important;
+  gap: 5px;
+}
+.company-gallery4 {
+  margin-top: 2% !important;
+  gap: 5px;
+}
+.company-gallery1 {
+  margin-top: 3%;
+}
+.company-gallery2 {
+  margin-top: 3%;
+}
+.pneumatic-left p {
+  font-size: 14px;
+}
+.pneumatic-left li {
+  font-size: 14px;
+}
+.pneumatic-right img {
+  width: 92%;
+}
+.classification-box h3 {
+  padding: 10px;
+  font-size: 14px;
+}
+.classification-box p {
+  padding-left: 0;
+  font-size: 12px;
+}
+.classification-box li {
+  padding-left: 0;
+  font-size: 12px !important;
+}
+ 
+.comparison-heading {
+  font-size: 1.2rem !important;
+  margin-bottom: 0.5rem !important;
+  padding-bottom: 0.1rem !important;
+margin-top: 0 !important;
+}
+ 
+.responsive-table th, .responsive-table td {
+  padding: 6px !important;
+  text-align: left;
+  border: 1px solid #ddd;
+  font-size: 12px !important;
+}
+.swiper-slide:first-child {
+  font-size: 17px;
+}
+.comparison-section {
+  padding: 0rem;
+  text-align: center;
+}
+.comparison-section {
+  padding: 1rem;
+  text-align: center;
+}
+ 
+.video-container1 {
+  max-width: 361px !important;
+}
+.venting-images1 img {
+ 
+  width: 100% !important;
+ 
+}
+ 
+.venting-images1 span {
+   
+    bottom: 2% !important;
+}
+.points-list {
+ 
+  margin: 0 auto !important;
+ 
+}
+.parent4 .cont1 img {
+  width: 57%;
+}
+ 
+.page55-right img {
+  width: 60%;
+ 
+}
+ 
+.last-left h2 {
+  margin-bottom: 1%;
+}
+.last-left p {
+  margin-bottom: 3% !important;
+}
+ 
+.points {
+ 
+  align-items: start !important;
+}
+}
