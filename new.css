@@ -226,7 +226,7 @@
     }
   
     .capacities-image img {
-      max-width: 55%;
+      /* max-width: 55%; */
       /* Slightly larger image */
     }
   }
@@ -242,7 +242,7 @@
     }
   
     .capacities-image img {
-      max-width: 70%;
+      /* max-width: 70%; */
     }
   }
   
@@ -264,7 +264,7 @@
     }
   
     .capacities-image img {
-      max-width: 80%;
+      /* max-width: 80%; */
     }
   
     .capacities-table th,
@@ -286,7 +286,7 @@
     }
   
     .capacities-image img {
-      max-width: 90%;
+      /* max-width: 90%; */
     }
   }
 
@@ -992,7 +992,7 @@
   .venting-images1 img {
     max-width: 209%;
     max-height: 150%;
-    width: 60%;
+    width: 100%;
     object-fit: contain;
     border-radius: 12px;
     /* margin-top: -33%; */
